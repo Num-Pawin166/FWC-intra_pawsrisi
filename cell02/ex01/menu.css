@@ -1,0 +1,52 @@
+body {
+	margin: 0;
+	font-family: Arial, sans-serif;
+	background-color: #f4f1ea;
+}
+
+ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+a {
+	text-decoration: none;
+	color: white;
+	display: block;
+	padding: 14px 24px;
+}
+
+/* แถบเมนูหลัก */
+.menu {
+	background-color: #1a3a5c;
+	display: flex;
+}
+
+.menu > li {
+	position: relative;
+}
+
+.menu > li:hover {
+	background-color: #2e5c8a;
+}
+
+
+.submenu {
+	display: none;
+	position: absolute;
+	top: 100%;
+	left: 0;
+	min-width: 180px;
+	background-color: #2e5c8a;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+
+.menu > li:hover .submenu {
+	display: block;
+}
+
+.submenu li:hover {
+	background-color: #d94f2b;
+}
