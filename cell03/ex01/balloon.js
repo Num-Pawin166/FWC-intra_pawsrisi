@@ -10,7 +10,6 @@ function draw() {
 	balloon.style.backgroundColor = colors[colorIndex];
 }
 
-/* คลิก: ใหญ่ขึ้น 10px, สีเดินหน้า red -> green -> blue -> red */
 balloon.addEventListener("click", function () {
 	size = size + 10;
 	colorIndex = (colorIndex + 1) % 3;
