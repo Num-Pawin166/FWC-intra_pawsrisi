@@ -1,0 +1,12 @@
+body {
+	margin: 0;
+	height: 100vh;
+	font-family: Arial, sans-serif;
+}
+
+#colorButton {
+	margin: 10px;
+	padding: 8px 16px;
+	font-size: 16px;
+	cursor: pointer;
+}

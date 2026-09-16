@@ -1,0 +1,31 @@
+body {
+	margin: 0;
+	padding: 40px;
+	font-family: Arial, sans-serif;
+	background-color: #f0f0f0;
+}
+
+.calculator {
+	background-color: white;
+	padding: 20px;
+	border-radius: 8px;
+	display: inline-block;
+	box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+}
+
+input[type="text"] {
+	width: 80px;
+	padding: 8px;
+	font-size: 16px;
+}
+
+select {
+	padding: 8px;
+	font-size: 16px;
+}
+
+input[type="submit"] {
+	padding: 8px 16px;
+	font-size: 16px;
+	cursor: pointer;
+}
