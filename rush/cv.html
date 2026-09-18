@@ -8,6 +8,7 @@
   <style>
     body { scroll-padding-top: 70px; }
     section { padding: 60px 0; }
+    .card-img-top { height: 180px; object-fit: cover; }
   </style>
 </head>
 <body>
@@ -20,7 +21,7 @@
       </button>
       <div class="collapse navbar-collapse" id="menu">
         <ul class="navbar-nav ms-auto">
-          <li class="nav-item"><a class="nav-link" href=" https://port-1323f.firebaseapp.com/">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="https://port-1323f.firebaseapp.com/">About</a></li>
           <li class="nav-item"><a class="nav-link" href="https://port-1323f.firebaseapp.com/portfolio.html">Showcase</a></li>
           <li class="nav-item"><a class="nav-link" href="mailto:67030166@kmitl.ac.th">Contact</a></li>
         </ul>
@@ -36,10 +37,9 @@
         </div>
         <div class="col-md-8">
           <h1>Pawin Srisiriwat</h1>
-          <p class="text-muted">นักศึกษาครุศาสตร์ เทคโนโลยีคอมพิวเตอร์ / สถาบันเทคโนโลยีพระจอมเกล้าเจ้าคุณทหารลาดกระบัง
-</p>
+          <p class="text-muted">นักศึกษาครุศาสตร์ เทคโนโลยีคอมพิวเตอร์ / สถาบันเทคโนโลยีพระจอมเกล้าเจ้าคุณทหารลาดกระบัง</p>
           <p>
-            สวัสดีครับ ผมกำลังศึกษาอยู่ระดับชั้น ปีที่ 3 และมีProjcet ที่กำลังทำและศึกษาอยู่ตอนนี้ 
+            สวัสดีครับ ผมกำลังศึกษาอยู่ระดับชั้นปีที่ 3 และมีโปรเจกต์ที่กำลังทำและศึกษาอยู่ตอนนี้
           </p>
         </div>
       </div>
@@ -50,15 +50,27 @@
     <div class="container">
       <h2 class="mb-4">Showcase</h2>
       <div class="row">
-        
+
         <div class="col-md-4 mb-3">
           <div class="card h-100">
+            <img src="2.png" class="card-img-top" alt="เครื่องวัดแรงสั่นสะเทือน 3 แกน">
             <div class="card-body">
               <h5 class="card-title">เครื่องวัดแรงสั่นสะเทือน 3 แกน</h5>
               <p class="card-text">อุปกรณ์ IoT วัดการสั่นสะเทือนและแสดงผลแบบเรียลไทม์</p>
             </div>
           </div>
         </div>
+
+        <div class="col-md-4 mb-3">
+          <div class="card h-100">
+            <img src="IC3.png" class="card-img-top" alt="เว็บพอร์ตโฟลิโอ">
+            <div class="card-body">
+              <h5 class="card-title">IC3</h5>
+              <p class="card-text">IC3</p>
+            </div>
+          </div>
+        </div>
+
         <div class="col-md-4 mb-3">
           <div class="card h-100">
             <div class="card-body">
@@ -66,11 +78,12 @@
               <ul class="mb-0">
                 <li>HTML / CSS / JavaScript</li>
                 <li>Python, C</li>
-                <li>Git, Vercel</li>
+                <li>Git, Firebase</li>
               </ul>
             </div>
           </div>
         </div>
+
       </div>
     </div>
   </section>
@@ -87,5 +100,7 @@
   <footer class="bg-dark text-white text-center py-3">
     <small>&copy; 2026 Pawin Srisiriwat</small>
   </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
